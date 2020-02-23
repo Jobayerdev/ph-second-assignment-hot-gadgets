@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins";
+}
+
+/* header */
+#header {
+	margin: 15px 0px;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+
+.navbar-brand img {
+	width: 150px;
+}
+
+.nav-link {
+	margin-left: 24px;
+}
+
+/* hero area */
+
+.carousel-item img {
+	width: 100%;
+}
+
+.carousel-item h2 {
+	color: #1f1f1f;
+	font-size: 41px;
+}
+.carousel-item p {
+	color: #707070;
+	font-size: 14px;
+	line-height: 24px;
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.buy-now-btn {
+	color: #ffffff;
+	background-color: #1f1f1f;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.carousel-indicators li {
+	border: 8px !important;
+	background: lightgrey !important;
+	height: 8px !important;
+	padding: 0;
+	margin: 0;
+	width: 20px !important;
+	margin: 2px;
+	opacity: 1;
+	border-radius: 4px;
+	transition: 0.4s all ease-in-out;
+}
+
+.carousel-indicators .active {
+	width: 40px !important;
+	background: #ffcb1c !important;
+	opacity: 1;
+}
